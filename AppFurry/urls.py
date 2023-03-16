@@ -3,5 +3,6 @@ from . import views
 from django.conf import settings
 
 urlpatterns = [
-    path('' , views.inicio, name="inicio" ),
+    path('' , views.Ppadre, name="Ppadre" ),
+    path('index/', views.index, name='index')
 ]
