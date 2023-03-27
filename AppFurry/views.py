@@ -3,8 +3,8 @@ from .models import *
 
 # Create your views here.
 
-def Ppadre(request):
-    return render(request, 'Recursos/Ppadre.html')
+def layout(request):
+    return render(request, 'layout.html')
 
 def index(request):
-    return render(request, 'Recursos/index.html')
+    return render(request, 'index.html')
